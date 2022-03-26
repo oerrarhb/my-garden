@@ -1,12 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
-
-function Banner()
-{
-  const title = "My Garden";
-  return (<h1>{title}</h1>)
-}
-
 function Cart()
 {
     const monsteraPrice = 8;
@@ -26,14 +17,4 @@ function Cart()
     );
 }
 
-
-function App() {
-  return (
-    <div>
-      <Banner/>
-      <Cart/>
-    </div>
-  );
-}
-
-export default App;
+export default Cart
