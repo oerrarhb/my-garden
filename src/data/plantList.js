@@ -15,76 +15,87 @@ import aloe from '../assets/aloe.jpg';
 export const plantList = [
 	{
 		name: 'monstera',
-		category: 'classique',
+		category: 'classic',
 		id: '1ed',
 		isBestSale: true,
 		light: 2,
 		water: 3,
-		cover: monstera
+		cover: monstera,
+		price : 15
 	},
 	{
 		name: 'ficus lyrata',
-		category: 'classique',
+		category: 'classic',
 		id: '2ab',
 		light: 3,
 		water: 1,
-		cover: ficuslyrata
+		cover: ficuslyrata,
+		price : 18
 	},
 	{
 		name: 'pothos argyraeus',
-		category: 'classique',
+		category: 'classic',
 		id: '3sd',
 		light: 1,
 		water: 2,
-		cover: pothos
+		cover: pothos,
+		price : 17
+
 	},
 	{
 		name: 'yucca',
-		category: 'classique',
+		category: 'classic',
 		id: '4kk',
 		light: 3,
 		water: 1,
-		cover: yucca
+		cover: yucca,
+		price : 25
+
 	},
 	{
 		name: 'olivier',
-		category: 'extérieur',
+		category: 'outdoor plant',
 		id: '5pl',
 		light: 3,
 		water: 1,
-		cover: olivier
+		cover: olivier,
+		price : 35
 	},
 	{
 		name: 'géranium',
-		category: 'extérieur',
+		category: 'outdoor plant',
 		id: '6uo',
 		light: 2,
 		water: 2,
-		cover: geranium
+		cover: geranium,
+		price : 12
 	},
 	{
 		name: 'basilic',
-		category: 'extérieur',
+		category: 'outdoor plant',
 		id: '7ie',
 		isBestSale: true,
 		light: 2,
 		water: 3,
-		cover: basilic
+		cover: basilic,
+		price : 15
 	},
 	{
 		name: 'aloe vera',
-		category: 'plante grasse',
+		category: 'greasy plant',
 		id: '8fp',
 		light: 2,
 		water: 1,
-		cover: aloe
+		cover: aloe,
+		price : 10
 	},
 	{
 		name: 'succulente',
-		category: 'plante grasse',
+		category: 'greasy plant',
 		id: '9vn',
 		light: 2,
 		water: 1,
-		cover: succulente
+		cover: succulente,
+		price : 4
 	}
 ]
